@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-16T06:21:57.612Z</updated>
+  <updated>2015-09-16T06:29:58.981Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,10 +19,12 @@
     <link href="http://yoursite.com/2015/09/16/hexo-github-gitcafe-page/"/>
     <id>http://yoursite.com/2015/09/16/hexo-github-gitcafe-page/</id>
     <published>2015-09-16T06:15:55.000Z</published>
-    <updated>2015-09-16T06:21:57.612Z</updated>
+    <updated>2015-09-16T06:29:58.981Z</updated>
     <content type="html"><![CDATA[<p>首先修改hexo blog根路径下的_config.yml</p>
 <p>找到deploy，按如下方式修改</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">- <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:username/username.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">- <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@gitcafe.com:username/username.git</span><br><span class="line">  branch: gitcafe-pages</span><br></pre></td></tr></table></figure>]]></content>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">- <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:username/username.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">- <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@gitcafe.com:username/username.git</span><br><span class="line">  branch: gitcafe-pages</span><br></pre></td></tr></table></figure>
+<p>添加SSH公钥后执行<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
+]]></content>
     <summary type="html">
     <![CDATA[<p>首先修改hexo blog根路径下的_config.yml</p>
 <p>找到deploy，按如下方式修改</p>

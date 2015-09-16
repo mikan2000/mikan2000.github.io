@@ -193,7 +193,9 @@
         
           <span itemprop="articleBody"><p>首先修改hexo blog根路径下的_config.yml</p>
 <p>找到deploy，按如下方式修改</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">- <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:username/username.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">- <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@gitcafe.com:username/username.git</span><br><span class="line">  branch: gitcafe-pages</span><br></pre></td></tr></table></figure></span>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">- <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:username/username.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">- <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@gitcafe.com:username/username.git</span><br><span class="line">  branch: gitcafe-pages</span><br></pre></td></tr></table></figure>
+<p>添加SSH公钥后执行<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br></pre></td></tr></table></figure></p>
+</span>
         
       
     </div>
