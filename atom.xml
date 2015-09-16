@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-15T10:40:36.490Z</updated>
+  <updated>2015-09-16T01:42:00.857Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://yoursite.com/2015/09/15/ubuntu-php-environment/"/>
     <id>http://yoursite.com/2015/09/15/ubuntu-php-environment/</id>
     <published>2015-09-15T09:57:23.000Z</published>
-    <updated>2015-09-15T10:40:36.490Z</updated>
+    <updated>2015-09-16T01:42:00.857Z</updated>
     <content type="html"><![CDATA[<p>记录下在ubuntu14.04上搭建php、nginx环境</p>
 <p>先装nginx</p>
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-get install nginx</span><br></pre></td></tr></table></figure>
@@ -36,7 +36,7 @@
 <figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</sp]]>
     </summary>
     
-      <category term="php nginx php环境 ubuntu" scheme="http://yoursite.com/tags/php-nginx-php%E7%8E%AF%E5%A2%83-ubuntu/"/>
+      <category term="php,nginx,php环境,ubuntu" scheme="http://yoursite.com/tags/php-nginx-php%E7%8E%AF%E5%A2%83-ubuntu/"/>
     
   </entry>
   
@@ -45,7 +45,7 @@
     <link href="http://yoursite.com/2015/03/06/java-template-methed/"/>
     <id>http://yoursite.com/2015/03/06/java-template-methed/</id>
     <published>2015-03-06T15:05:20.000Z</published>
-    <updated>2015-09-15T10:07:54.441Z</updated>
+    <updated>2015-09-16T01:42:11.417Z</updated>
     <content type="html"><![CDATA[<p>所谓模板板式，也就是说在父类的的模板方法定义了一系列算法步骤，子类可以去实现（覆盖）其中某些步骤，但不能改变这些步骤的执行顺序。</p>
 <p>父类是一个抽象类：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">TemplatePattern</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//模板方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">void</span> <span class="title">templateMethod</span> <span class="params">()</span></span>&#123;</span><br><span class="line">    	</span><br><span class="line">        method1();  </span><br><span class="line">        method2();<span class="comment">//勾子方法  </span></span><br><span class="line">        method3();<span class="comment">//抽象方法</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">method1</span><span class="params">()</span></span>&#123;  </span><br><span class="line">        System.out.println(<span class="string">"父类实现业务逻辑"</span>);  </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">method2</span><span class="params">()</span></span>&#123;  </span><br><span class="line">        System.out.println(<span class="string">"父类默认实现，子类可覆盖"</span>);  </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title">method3</span><span class="params">()</span></span>;<span class="comment">//子类负责实现业务逻辑</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>父类中有三个方法，分别是method1()，method2()和method3()。 </p>
@@ -61,7 +61,7 @@
 <p>父类是一个抽象类：<br><figure class="highlight java"><table><tr><td class=]]>
     </summary>
     
-      <category term="java 设计模式" scheme="http://yoursite.com/tags/java-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+      <category term="java,设计模式" scheme="http://yoursite.com/tags/java-%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
     
   </entry>
   
