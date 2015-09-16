@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Hexo]]></title>
+  <title><![CDATA[fanhe233]]></title>
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-16T02:49:40.045Z</updated>
+  <updated>2015-09-16T06:21:57.612Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[hexo同时部署github和gitcafe]]></title>
+    <link href="http://yoursite.com/2015/09/16/hexo-github-gitcafe-page/"/>
+    <id>http://yoursite.com/2015/09/16/hexo-github-gitcafe-page/</id>
+    <published>2015-09-16T06:15:55.000Z</published>
+    <updated>2015-09-16T06:21:57.612Z</updated>
+    <content type="html"><![CDATA[<p>首先修改hexo blog根路径下的_config.yml</p>
+<p>找到deploy，按如下方式修改</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">- <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:username/username.github.io.git</span><br><span class="line">  branch: master</span><br><span class="line">- <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@gitcafe.com:username/username.git</span><br><span class="line">  branch: gitcafe-pages</span><br></pre></td></tr></table></figure>]]></content>
+    <summary type="html">
+    <![CDATA[<p>首先修改hexo blog根路径下的_config.yml</p>
+<p>找到deploy，按如下方式修改</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="li]]>
+    </summary>
+    
+      <category term="hexo多部署,hexo部署" scheme="http://yoursite.com/tags/hexo%E5%A4%9A%E9%83%A8%E7%BD%B2-hexo%E9%83%A8%E7%BD%B2/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[在ubuntu14.04上搭建php、nginx环境]]></title>
@@ -45,7 +64,7 @@
     <link href="http://yoursite.com/2015/03/06/java-template-methed/"/>
     <id>http://yoursite.com/2015/03/06/java-template-methed/</id>
     <published>2015-03-06T15:05:20.000Z</published>
-    <updated>2015-09-16T01:42:10.325Z</updated>
+    <updated>2015-09-16T01:42:11.417Z</updated>
     <content type="html"><![CDATA[<p>所谓模板板式，也就是说在父类的的模板方法定义了一系列算法步骤，子类可以去实现（覆盖）其中某些步骤，但不能改变这些步骤的执行顺序。</p>
 <p>父类是一个抽象类：<br><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="class"><span class="keyword">class</span> <span class="title">TemplatePattern</span> </span>&#123;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//模板方法</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">final</span> <span class="keyword">void</span> <span class="title">templateMethod</span> <span class="params">()</span></span>&#123;</span><br><span class="line">    	</span><br><span class="line">        method1();  </span><br><span class="line">        method2();<span class="comment">//勾子方法  </span></span><br><span class="line">        method3();<span class="comment">//抽象方法</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">method1</span><span class="params">()</span></span>&#123;  </span><br><span class="line">        System.out.println(<span class="string">"父类实现业务逻辑"</span>);  </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">method2</span><span class="params">()</span></span>&#123;  </span><br><span class="line">        System.out.println(<span class="string">"父类默认实现，子类可覆盖"</span>);  </span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="keyword">protected</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title">method3</span><span class="params">()</span></span>;<span class="comment">//子类负责实现业务逻辑</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 <p>父类中有三个方法，分别是method1()，method2()和method3()。 </p>

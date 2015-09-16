@@ -2,13 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2015/09/16/hexo-github-gitcafe-page/</loc>
+    <lastmod>2015-09-16T06:21:57.612Z</lastmod>
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2015/09/15/ubuntu-php-environment/</loc>
     <lastmod>2015-09-16T02:49:40.045Z</lastmod>
   </url>
   
   <url>
     <loc>http://yoursite.com/2015/03/06/java-template-methed/</loc>
-    <lastmod>2015-09-16T01:42:10.325Z</lastmod>
+    <lastmod>2015-09-16T01:42:11.417Z</lastmod>
   </url>
   
 </urlset>
