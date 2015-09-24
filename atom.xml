@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2015-09-24T10:04:02.188Z</updated>
+  <updated>2015-09-24T10:05:31.074Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,16 +19,25 @@
     <link href="http://yoursite.com/2015/09/24/atom-font-bold/"/>
     <id>http://yoursite.com/2015/09/24/atom-font-bold/</id>
     <published>2015-09-24T09:43:20.000Z</published>
-    <updated>2015-09-24T10:04:02.188Z</updated>
-    <content type="html"><![CDATA[<p>1.打开atom，按ctrl+shift+p，输入setting选择Settings View: Open</p>
-<p>2.在左菜单中选择Settings这项，设置Font Family为inconsolata</p>
-<p>3.点击左菜单的Open Config Folder，这时会打开一个新窗口</p>
-<p>4.找到styles.less,添加如下代码</p>
+    <updated>2015-09-24T10:05:31.074Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li><p>打开atom，按ctrl+shift+p，输入setting选择Settings View: Open</p>
+</li>
+<li><p>在左菜单中选择Settings这项，设置Font Family为inconsolata</p>
+</li>
+<li><p>点击左菜单的Open Config Folder，这时会打开一个新窗口</p>
+</li>
+<li><p>找到styles.less,添加如下代码</p>
+</li>
+</ul>
 <figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.editor</span> &#123;</span><br><span class="line">     <span class="attribute">font-weight</span>: bold;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     <summary type="html">
-    <![CDATA[<p>1.打开atom，按ctrl+shift+p，输入setting选择Settings View: Open</p>
-<p>2.在左菜单中选择Settings这项，设置Font Family为inconsolata</p>
-<p>3.点击左菜单的Open Config Fol]]>
+    <![CDATA[<ul>
+<li><p>打开atom，按ctrl+shift+p，输入setting选择Settings View: Open</p>
+</li>
+<li><p>在左菜单中选择Settings这项，设置Font Family为inconsolata</p>
+</li>
+<li><]]>
     </summary>
     
       <category term="atom" scheme="http://yoursite.com/tags/atom/"/>
